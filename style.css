@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+ body{
+    height: 100vh;
+    width: 100%;
+   overflow: hidden;
+ 
+ }
+ .contact{
+    background-image: linear-gradient(to right, #01022dd0,#00000050),
+    url(download.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+ }
+ .contact:hover{
+    background-image: linear-gradient(to right, #01022dd0,transparent),
+    url(download.webp);
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+     padding: 20px ;
+ }
+ .logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ ul li{
+    display: inline-block;
+ }
+ ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+ }
+  a:hover{
+   border-bottom-color:white;
+
+ }
+.cont{
+    color: #fff;
+  width: 50%;
+  padding: 20px 45px;
+  
+}
+.cont h1{
+    font-size: 67px;
+     
+    width: 60%;
+    text-transform: uppercase;
+}
+.cont p{
+    width: 300px;
+    
+    letter-spacing: 1px;
+}
+ .bottom{
+    background-color: #fff;
+    font-size: 30px;
+    padding: 10px 25px;
+    padding: 0 100px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+ }
+ .bottom:hover{
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+ }
+
+ @media  (max-width:767px) {
+   .logo{
+      padding: 20px 100px;
+   }
+   
+ }
